@@ -2,19 +2,63 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- TODO: Add favicon. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <title>Viktoriia Matsiuk</title>
     <link rel="stylesheet" href="./src/style.css" />
-    <title>Vite ➕ Tailwind</title>
   </head>
-  <body>
-    <h1
-      class="text-center text-3xl font-semibold text-red-500 transition-all md:text-5xl"
-    >
-      Hello
-    </h1>
+  <body class="container m-auto bg-gray-300">
+    <h1 class="text-center">Viktoriia Matsiuk</h1>
 
-    <script type="module" src="./src/index.js"></script>
+    <main
+      class="bor flex flex-col items-center border border-cyan-900 bg-slate-200 p-4 sm:mx-20 md:mx-48 lg:mx-64 xl:mx-96"
+    >
+      <p class="my-2 text-cyan-800">
+        <b>Hi everyone! I'm Viktoriia and I'm 22.</b>
+      </p>
+
+      <section class="my-2 flex flex-col items-center">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>1. Reading</li>
+          <li>2. Listening to music</li>
+          <li>3. Workouting</li>
+          <li>4. Watching "Desperate Housewives"</li>
+          <li>5. Drinking iced latte with my friends</li>
+          <li>6. Doing online shopping</li>
+        </ul>
+      </section>
+
+      <section class="my-2 flex flex-col items-center">
+        <h2 class="capitalize">Favourite holiday destinations</h2>
+
+        <ul class="list-inside list-disc">
+          <li>Italy</li>
+          <li>France</li>
+          <li>Turkey</li>
+        </ul>
+      </section>
+
+      <section class="my-2 flex flex-col items-center">
+        <h2 class="text-center">Favourite Movie</h2>
+
+        <img src="1628539-881605.jpg" alt="film" width="400" height="550" />
+      </section>
+
+      <section class="my-2">
+        <h2>Social Media</h2>
+        <div
+          class="flex flex-row-reverse place-content-center space-x-4 space-x-reverse"
+        >
+          <a href="https://www.instagram.com/vikamma/"
+            ><img src="instagram.png" alt="" class="w-8 hover:w-9"
+          /></a>
+
+          <a href="https://www.facebook.com/vikamma/"
+            ><img src="facebook.png" alt="" class="w-8 hover:w-9"
+          /></a>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
